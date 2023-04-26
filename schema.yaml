@@ -5,7 +5,7 @@
   listed: true
   hasRoute: false
   showAsTable: false
-  parent: "homepage_test"
+  parent: "homepage"
   fields:
     - name: "text"
       label: "Text"
@@ -35,7 +35,7 @@
   listed: true
   hasRoute: false
   showAsTable: false
-  parent: "homepage_test"
+  parent: "homepage"
   fields:
     - name: "heading"
       label: "Heading"
@@ -58,7 +58,7 @@
   listed: true
   hasRoute: false
   showAsTable: false
-  parent: "homepage_test"
+  parent: "homepage"
   fields:
     - name: "image"
       label: "Image"
@@ -192,7 +192,7 @@
   listed: true
   hasRoute: false
   showAsTable: false
-  parent: "homepage_test"
+  parent: "homepage"
   fields:
     - name: "heading"
       label: "Heading"
@@ -238,7 +238,7 @@
   listed: true
   hasRoute: false
   showAsTable: false
-  parent: "homepage_test"
+  parent: "homepage"
   fields:
     - name: "heading"
       label: "Heading"
@@ -292,7 +292,7 @@
   listed: true
   hasRoute: false
   showAsTable: false
-  parent: "homepage_test"
+  parent: "homepage"
   fields:
     - name: "quote"
       label: "Quote"
@@ -337,8 +337,8 @@
       required: true
       relationship: null
 - description: null
-  label: "Homepage Test"
-  name: "homepage_test"
+  label: "Homepage"
+  name: "homepage"
   sort: 1
   listed: true
   hasRoute: true
