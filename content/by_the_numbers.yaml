@@ -1,1 +1,76 @@
-null
+- id: "byTheNumbers_0"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "$700"
+    content: "Average savings members report when they switch to Kin for homeowners insurance between March 2022 and February 2023."
+- id: "byTheNumbers_1"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "80"
+    content: "Average Net Promoter Score in an industry that averages 35"
+- id: "byTheNumbers_2"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "4.6"
+    content: "Out of 5 average customer satisfaction rating"
+- id: "byTheNumbers_3"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "151K+"
+    content: "Bound policies"

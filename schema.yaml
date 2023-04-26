@@ -1,572 +1,430 @@
-
-  - description: null
-    label: "Common Fields"
-    name: "common_fields"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "homepage_test"
-    fields:
-      - name: "slug"
-        label: "Slug"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "meta_description"
-        label: "Meta Description"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "no_index"
-        label: "no-index"
-        description: null
-        datatype: "yes_no"
-        sort: 1
-        required: true
-        relationship: null
-        settings:
-          list: true
-          options:
-            0: "No"
-            1: "Yes"
-      - name: "title"
-        label: "Page Title"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "sub_text"
-        label: "List Summary"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "header_text"
-        label: "Heading"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "sub_header"
-        label: "Sub Heading"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "featured_image"
-        label: "Featured Image"
-        description: null
-        datatype: "images"
-        sort: 1
-        required: null
-        relationship: null
-        settings:
-          limit: 1
-          list: false
-      - name: "is_feature_clipped"
-        label: "Clip Featured Image"
-        description: null
-        datatype: "yes_no"
-        sort: 1
-        required: true
-        relationship: null
-        settings:
-          list: true
-          options:
-            0: "No"
-            1: "Yes"
-      - name: "featured_image_alt"
-        label: "Featured Image Alt Text"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "thumbnail_image"
-        label: "Thumbnail Image"
-        description: null
-        datatype: "images"
-        sort: 1
-        required: null
-        relationship: null
-        settings:
-          limit: 1
-          list: false
-      - name: "schemamarkup"
-        label: "Schema Markup"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "show_banner"
-        label: "Show Site Banner"
-        description: null
-        datatype: "yes_no"
-        sort: 1
-        required: true
-        relationship: null
-        settings:
-          list: true
-          options:
-            0: "No"
-            1: "Yes"
-      - name: "banner"
-        label: "Site Banner"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: "common_fields"
-          display: "slug"
-        settings:
-          list: true
-  - description: null
-    label: "Items"
-    name: "items"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "value_propositions"
-    fields:
-      - name: "heading"
-        label: "Heading"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "content"
-        label: "Content"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-  - description: null
-    label: "Value Propositions"
-    name: "value_propositions"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "homepage_test"
-    fields:
-      - name: "items"
-        label: "Items"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: null
-          display: null
-        settings:
-          list: true
-  - description: null
-    label: "Testimonial"
-    name: "testimonial"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "homepage_test"
-    fields:
-      - name: "image"
-        label: "Image"
-        description: null
-        datatype: "images"
-        sort: 1
-        required: null
-        relationship: null
-        settings:
-          limit: 1
-          list: false
-      - name: "image_alt_text"
-        label: "Image Alt Text"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "quote"
-        label: "Quote"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "reviewer"
-        label: "Reviewer"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "review_link"
-        label: "Review Link"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "open_review_link_in_new_tab"
-        label: "Open Review Link in New Tab"
-        description: null
-        datatype: "yes_no"
-        sort: 1
-        required: true
-        relationship: null
-        settings:
-          list: true
-          options:
-            0: "No"
-            1: "Yes"
-      - name: "reviewer_description"
-        label: "Reviewer Description"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "supplemental_text"
-        label: "Supplemental Text"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "button_text"
-        label: "Button Text"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "button_link"
-        label: "Button Link"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-  - description: null
-    label: "Types"
-    name: "types"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "coverage"
-    fields:
-      - name: "image"
-        label: "Image"
-        description: null
-        datatype: "images"
-        sort: 1
-        required: null
-        relationship: null
-        settings:
-          limit: 1
-          list: false
-      - name: "heading"
-        label: "Heading"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "content"
-        label: "Content"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "button_text"
-        label: "Button Text"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "button_link"
-        label: "Button Link"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-  - description: null
-    label: "Coverage"
-    name: "coverage"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "homepage_test"
-    fields:
-      - name: "heading"
-        label: "Heading"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "subheading"
-        label: "Subheading"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "types"
-        label: "Types"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: null
-          display: null
-        settings:
-          list: true
-  - description: null
-    label: "By the Numbers"
-    name: "by_the_numbers"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "count_on_us"
-    fields:
-      - name: "heading"
-        label: "Heading"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "content"
-        label: "Content"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-  - description: null
-    label: "Count On Us"
-    name: "count_on_us"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "homepage_test"
-    fields:
-      - name: "heading"
-        label: "Heading"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "content"
-        label: "Content"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "by_the_numbers"
-        label: "By the Numbers"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: null
-          display: null
-        settings:
-          list: true
-      - name: "button_text"
-        label: "Button Text"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "button_link"
-        label: "Button Link"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "image"
-        label: "Image"
-        description: null
-        datatype: "images"
-        sort: 1
-        required: null
-        relationship: null
-        settings:
-          limit: 1
-          list: false
-      - name: "image_alt_text"
-        label: "Image Alt Text"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-  - description: null
-    label: "Blurb"
-    name: "blurb"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "homepage_test"
-    fields:
-      - name: "quote"
-        label: "Quote"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "source"
-        label: "Source"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "article_link"
-        label: "Article Link"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "article_title"
-        label: "Article Title"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "button_text"
-        label: "Button Text"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "button_link"
-        label: "Button Link"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-  - description: null
-    label: "Homepage Test"
-    name: "homepage_test"
-    sort: 1
-    listed: true
-    hasRoute: true
-    showAsTable: false
-    parent: null
-    fields:
-      - name: "common_fields"
-        label: "Common Fields"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: "common_fields"
-          display: "slug"
-        settings:
-          list: true
-      - name: "header_underlined_word"
-        label: "Header Underlined Word"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-      - name: "value_propositions"
-        label: "Value Propositions"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: "blurb"
-          display: "quote"
-        settings:
-          list: true
-      - name: "testimonial"
-        label: "Testimonial"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: "blurb"
-          display: "quote"
-        settings:
-          list: true
-      - name: "coverage"
-        label: "Coverage"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: "blurb"
-          display: "quote"
-        settings:
-          list: true
-      - name: "count_on_us"
-        label: "Count On Us"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: "blurb"
-          display: "quote"
-        settings:
-          list: true
-      - name: "blurb"
-        label: "Blurb"
-        description: null
-        datatype: "one_to_many"
-        sort: 1
-        required: false
-        relationship:
-          name: "blurb"
-          display: "quote"
-        settings:
-          list: true
-      - name: "body"
-        label: "Body"
-        description: null
-        datatype: "wysiwyg_basic"
-        sort: 1
-        required: true
-        relationship: null
+- description: null
+  label: "Site Banner"
+  name: "banner"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "homepage_test"
+  fields:
+    - name: "text"
+      label: "Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "link_text"
+      label: "Link Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "link_path"
+      label: "Link"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Value Propositions"
+  name: "value_propositions"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "homepage_test"
+  fields:
+    - name: "heading"
+      label: "Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "content"
+      label: "Content"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Testimonial"
+  name: "testimonial"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "homepage_test"
+  fields:
+    - name: "image"
+      label: "Image"
+      description: null
+      datatype: "images"
+      sort: 1
+      required: null
+      relationship: null
+      settings:
+        limit: 1
+        list: false
+    - name: "image_alt_text"
+      label: "Image Alt Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "quote"
+      label: "Quote"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "reviewer"
+      label: "Reviewer"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "review_link"
+      label: "Review Link"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "open_review_link_in_new_tab"
+      label: "Open Review Link in New Tab"
+      description: null
+      datatype: "yes_no"
+      sort: 1
+      required: true
+      relationship: null
+      settings:
+        list: true
+        options:
+          0: "No"
+          1: "Yes"
+    - name: "reviewer_description"
+      label: "Reviewer Description"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "supplemental_text"
+      label: "Supplemental Text"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_text"
+      label: "Button Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_link"
+      label: "Button Link"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Types"
+  name: "types"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "coverage"
+  fields:
+    - name: "image"
+      label: "Image"
+      description: null
+      datatype: "images"
+      sort: 1
+      required: null
+      relationship: null
+      settings:
+        limit: 1
+        list: false
+    - name: "heading"
+      label: "Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "content"
+      label: "Content"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_text"
+      label: "Button Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_link"
+      label: "Button Link"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Coverage"
+  name: "coverage"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "homepage_test"
+  fields:
+    - name: "heading"
+      label: "Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "subheading"
+      label: "Subheading"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "By the Numbers"
+  name: "by_the_numbers"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "count_on_us"
+  fields:
+    - name: "heading"
+      label: "Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "content"
+      label: "Content"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Count On Us"
+  name: "count_on_us"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "homepage_test"
+  fields:
+    - name: "heading"
+      label: "Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "content"
+      label: "Content"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_text"
+      label: "Button Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_link"
+      label: "Button Link"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "image"
+      label: "Image"
+      description: null
+      datatype: "images"
+      sort: 1
+      required: null
+      relationship: null
+      settings:
+        limit: 1
+        list: false
+    - name: "image_alt_text"
+      label: "Image Alt Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Blurb"
+  name: "blurb"
+  sort: 1
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "homepage_test"
+  fields:
+    - name: "quote"
+      label: "Quote"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "source"
+      label: "Source"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "article_link"
+      label: "Article Link"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "article_title"
+      label: "Article Title"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_text"
+      label: "Button Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "button_link"
+      label: "Button Link"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Homepage Test"
+  name: "homepage_test"
+  sort: 1
+  listed: true
+  hasRoute: true
+  showAsTable: false
+  parent: null
+  fields:
+    - name: "sub_text"
+      label: "List Summary"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "header_text"
+      label: "Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "sub_header"
+      label: "Sub Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "featured_image"
+      label: "Featured Image"
+      description: null
+      datatype: "images"
+      sort: 1
+      required: null
+      relationship: null
+      settings:
+        limit: 1
+        list: false
+    - name: "is_feature_clipped"
+      label: "Clip Featured Image"
+      description: null
+      datatype: "yes_no"
+      sort: 1
+      required: true
+      relationship: null
+      settings:
+        list: true
+        options:
+          0: "No"
+          1: "Yes"
+    - name: "featured_image_alt"
+      label: "Featured Image Alt Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "schemamarkup"
+      label: "Schema Markup"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "show_banner"
+      label: "Show Site Banner"
+      description: null
+      datatype: "yes_no"
+      sort: 1
+      required: true
+      relationship: null
+      settings:
+        list: true
+        options:
+          0: "No"
+          1: "Yes"
+    - name: "header_underlined_word"
+      label: "Header Underlined Word"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "body"
+      label: "Body"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null

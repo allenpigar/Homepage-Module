@@ -1,1 +1,57 @@
-[]
+- id: "items_0"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "Easy"
+    content: "Customize your coverage in a few quick clicks and file claims instantly. Our 5-star team is ready to help."
+- id: "items_1"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "Affordable"
+    content: "We sell direct and use technology to keep costs low and pass savings on to you. Customers save $500 on average."
+- id: "items_2"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "All about you"
+    content: "We’re a member-owned insurance company that’s customer-focused by design. Our interests are fully aligned."

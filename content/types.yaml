@@ -1,1 +1,133 @@
-null
+
+  - id: "types_0"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      image: "3-f8947de-g9bsdk"
+      heading: "Home Insurance"
+      content: "Get protection for disasters big and small."
+      button_text: "Learn More"
+      button_link: "/home-insurance/"
+  - id: "types_1"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      image: "3-f8947de-c2r1pv"
+      heading: "Mobile Home Insurance"
+      content: "Protect your mobile home, other structures, belongings, personal liability, and more."
+      button_text: "Learn More"
+      button_link: "/mobile-home-insurance/"
+  - id: "types_2"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      image: "3-f8947de-mmqfxc"
+      heading: "Condo Insurance"
+      content: "Cover your unit’s interior from the walls in, your personal property, and more."
+      button_text: "Learn More"
+      button_link: "/condo-insurance/"
+  - id: "types_3"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      image: "3-f8947de-fgfn8d"
+      heading: "Landlord Insurance"
+      content: "Cover property you own that you rent out short-term or long-term."
+      button_text: "Learn More"
+      button_link: "/home-insurance/landlord-insurance/"
+  - id: "types_4"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      image: "3-f8947de-g9bsdk"
+      heading: "Vacation Home Insurance"
+      content: "Get coverage for your home away from home."
+      button_text: "Learn More"
+      button_link: "/home-insurance/second-home-insurance/"
+  - id: "types_5"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      image: "3-f8947de-893kn3"
+      heading: "Flood Insurance"
+      content: "Add this essential coverage to your policy to cover damage from storm surges."
+      button_text: "Learn More"
+      button_link: "/flood-insurance/"

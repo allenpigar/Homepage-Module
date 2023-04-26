@@ -1,1 +1,23 @@
-[]
+- id: "0"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    heading: "You Can Count on Us"
+    content: "With our “A – Exceptional” financial stability rating, we can help our customers through everything – from everyday claims to catastrophes. Check out our stats as of June 1, 2022."
+    button_text: "Learn More"
+    button_link: "/about/"
+    image: "3-f8947e3-0k17jk"
+    image_alt_text: "You Can Count On Us"

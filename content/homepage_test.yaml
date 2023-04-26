@@ -1,1 +1,27 @@
-null
+- id: "0"
+  web:
+    metaDescription: "Kin Insurance offers easy, affordable homeowners insurance designed for your needs. Call today at 855-717-0022 or get an online quote now!"
+    metaTitle: "Home Insurance Made Easy | Get a Quick Online Quote"
+    metaLinkText: "Homepage Test"
+    metaKeywords: null
+    pathPart: "homepage_test"
+    path: "/homepage_test/"
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    sub_text: "Simple, personalized, affordable home insurance designed for you."
+    header_text: "For Every New Normal"
+    sub_header: "Simple, personalized, affordable home insurance designed for you."
+    featured_image: "3-f89489a-fvnb6l"
+    is_feature_clipped: "0"
+    featured_image_alt: null
+    schemamarkup: '<script type="application/ld+json">{"@context": "https://schema.org","@type":"Organization","name": "Kin Insurance ","url": "https://www.kin.com/","logo": "https://www.kin.com/","address": {"@type": "PostalAddress","streetAddress": "222 Merchandise Mart Plaza, Suite 228","addressLocality": "Chicago","addressRegion": "Illinois","postalCode": "60654","addressCountry": "United States"},"contactPoint": {"@type": "ContactPoint","contactType": "contact","telephone": "855.216.7674","email": "support@kin.com"},"sameAs":["https://www.linkedin.com/company/kin-insurance/","https://www.instagram.com/kinsured/","https://www.facebook.com/kinsured","https://twitter.com/kinsured","https://www.youtube.com/channel/UCmWuEn5_JT7vq3BIGuhVknw","https://www.crunchbase.com/organization/kin-insurance"]} </script>'
+    show_banner: "0"
+    header_underlined_word: "Better"
+    body: null

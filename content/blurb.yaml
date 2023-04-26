@@ -1,1 +1,24 @@
-[]
+
+  - id: "0"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -2
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      quote: "Kin goes a step further, allowing it to better price the risk of homes in states where climate change-related disasters are on the rise."
+      source: "Fast Company"
+      article_link: "https://www.fastcompany.com/90457836/finance-most-innovative-companies-2020"
+      article_title: "The 10 most innovative finance companies of 2020"
+      button_text: "About Kin"
+      button_link: "/about/"

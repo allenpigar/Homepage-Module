@@ -15,5 +15,6 @@
     sort: null
     listed: true
   data:
-    heading: "What We Can Cover"
-    subheading: "Our coverage is designed to fit your home, needs, and budget. Learn how we protect what you love."
+    text: "Earn rewards for every referral."
+    link_text: "Get the details."
+    link_path: "https://www.kin.com/referral/"

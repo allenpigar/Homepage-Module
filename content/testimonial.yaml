@@ -1,1 +1,27 @@
-[]
+- id: "0"
+  web:
+    metaDescription: ""
+    metaTitle: ""
+    metaLinkText: ""
+    metaKeywords: null
+    pathPart: null
+    path: null
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+    parent: "/"
+  meta:
+    sort: null
+    listed: true
+  data:
+    image: "3-f894d2c-k4nmdr"
+    image_alt_text: "Mary Dickson"
+    quote: "I don’t know why anyone wouldn’t switch to Kin."
+    reviewer: "Mary Dickson"
+    review_link: "/reviews/mary-dickson/"
+    open_review_link_in_new_tab: "0"
+    reviewer_description: "Policyholder in Sanford, Florida"
+    supplemental_text: "After discovering an insurance-buying process that was actually pleasant, a homeowner in Sanford, Florida, wants everyone she knows to switch to Kin."
+    button_text: "Read Customer Reviews"
+    button_link: "/reviews/"
